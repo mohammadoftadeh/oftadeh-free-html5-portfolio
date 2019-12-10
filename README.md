@@ -1,4 +1,4 @@
-# oftadeh-free-html5-portfolio
+# Oftadeh Free HTML5 Portfolio
 Oftadeh - Personal Portfolio HTML5 Responsive Template was made using HTML and CSS and etc. as well as WebPack and Babeljs. Completely responsive, clean and standard coding. This theme is suitable for personal, cv, resume and blog.
 
 To view a live demo, [click here](https://vitateach.com/oftadeh-portfolio/index.html).
