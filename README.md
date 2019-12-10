@@ -26,6 +26,7 @@ To view a live demo, [click here](https://vitateach.com/oftadeh-portfolio/index.
 
 
 ## Setup and Configuration
+[![Oftadeh - Personal Portfolio](http://img.youtube.com/vi/sqzOPQPr79U/0.jpg)](https://www.youtube.com/watch?v=sqzOPQPr79U)
 If you want to develop this theme or deploy it, you should do the following:
 
 ### Production Directory
