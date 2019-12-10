@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About</title>
+
+    <!-- StyleSheet source -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
+    <link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/oftadeh.css" />
+    <!-- StyleSheet source -->
+</head>
+<body>
+    <!-- start body layout -->
+    <div class="back-body position-fixed"></div>
+    <!-- end body layout -->
+
+    <!-- start toggle button menu -->
+    <button class="o-toggle-menu d-block d-md-none o-bg-purple text-white rounded-circle position-fixed">
+        <i class="fas fa-stream"></i>
+    </button>
+    <!-- end toggle button menu -->
+    
+    <!-- start responsive menu -->
+    <div class="res-backdrop"></div>
+    <div class="responsive-menu overflow-hidden position-fixed bg-white d-block d-md-none">
+        <div class="res-back-avatar pt-3 d-flex align-items-center justify-content-center flex-column">
+            <div class="avatar__img rounded-circle mb-3">
+                <img src="./images/avatar.png" alt="oftadeh" title="oftadeh" class="rounded-circle" />
+            </div>
+            <p class="text-white text-center">Hi, I am <strong class="ml-2 o-text-purple">Mohammad Oftadeh</strong></p>
+            <ul class="list-unstyled d-flex">
+                <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-twitter"></i></a></li>
+                <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-linkedin-in"></i></a></li>
+                <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-github"></i></a></li>
+                <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-instagram"></i></a></li>
+                <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+        </div>
+        <nav class="d-flex flex-column justify-content-start">
+            <a href="index.html" class="position-relative m-3 text-dark">About</a>
+            <a href="portfolio.html" class="position-relative m-3 text-dark">Portfolio</a>
+            <a href="resume.html" class="position-relative m-3 text-dark">Resume</a>
+            <a href="blog.html" class="position-relative m-3 text-dark">Blog</a>
+            <a href="contact.html" class="position-relative m-3 text-dark">Contact</a>
+        </nav>
+        <div class="position-absolute copyright pt-2 bg-white">
+            <p class="o-text-purple text-center mb-2">@2019 OftadehTheme</p>
+        </div>
+    </div>
+    <!-- end responsive menu -->
+    
+        <!-- start main section -->
+        <main class="d-flex align-items-center position-relative">
+            <div class="container bg-white shadow-lg position-relative">
+            <!-- start header section -->
+            <header class="d-none d-md-block position-absolute">
+                <nav class="d-flex justify-content-center">
+                    <a href="index.html" class="position-relative m-3 text-dark o-hover o-menu-active">About</a>
+                    <a href="portfolio.html" class="position-relative m-3 text-dark o-hover">Portfolio</a>
+                    <a href="resume.html" class="position-relative m-3 text-dark o-hover">Resume</a>
+                    <a href="blog.html" class="position-relative m-3 text-dark o-hover">Blog</a>
+                    <a href="contact.html" class="position-relative m-3 text-dark o-hover">Contact</a>
+                </nav>
+            </header>
+            <!-- end header section -->
+    
+            <div class="row">
+                <div class="col-12 col-md-6 left-back d-flex align-items-center">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="avatar__img rounded-circle mb-2 mt-5">
+                            <img src="./images/avatar.png" alt="oftadeh" title="oftadeh" class="rounded-circle" />
+                        </div>
+                        <div class="d-flex justify-content-center flex-wrap align-items-baseline">
+                            <p class="o-font-lg text-white mb-1 mb-sm-3">Hi, I am</p>
+                            <h1 class="o-font-lg ml-2 o-text-purple">Mohammad Oftadeh</h1>
+                        </div>
+                        <p class="text-center text-white">I am always looking for learning and nothing is impossible for me. I work as a backend and more frontend. JavaScript is my favorite programming language."Life is fleeting"</p>
+                        <ul class="list-unstyled d-flex mb-5">
+                            <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-twitter"></i></a></li>
+                            <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-facebook-f"></i></a></li>
+                            <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-github"></i></a></li>
+                            <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-instagram"></i></a></li>
+                            <li class="m-1"><a href="#" class="text-white p-2"><i class="fab fa-dribbble"></i></a></li>
+                        </ul>
+                        <div class="row mb-5 justify-content-center">
+                            <a href="#" class="d-block m-3 text-white o-btn text-center py-2 position-relative">DOWNLOAD CV</a>
+                            <a href="#" class="d-block m-3 text-white o-btn text-center py-2 position-relative">CONTACT ME</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 py-3 right-side">
+                    <h5 class="o-title-page position-relative mb-5">About</h5>
+                    <ul class="list-unstyled p-3">
+                        <li class="mb-2">
+                            <div class="row">
+                                <div class="col-4 font-weight-bold">Age</div>
+                                <div class="col-8">23</div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="row">
+                                <div class="col-4 font-weight-bold">Languages</div>
+                                <div class="col-8">English, Germany</div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="row">
+                                <div class="col-4 font-weight-bold">Nationality</div>
+                                <div class="col-8">American</div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="row">
+                                <div class="col-4 font-weight-bold">Address</div>
+                                <div class="col-8">
+                                    <address>121 King Street, Melbourne, Victoria 3000, Australia</address>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="mb-2">
+                            <div class="row">
+                                <div class="col-4 font-weight-bold">Freelance</div>
+                                <div class="col-8">till March 25, 2013</div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- start services -->
+                    <div class="services mb-5">
+                        <h5 class="o-title-page position-relative mb-5">Services</h5>
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="services__div text-light m-2 d-flex flex-column align-items-center justify-content-center p-2 overflow-hidden">
+                                <i class="fas fa-magic o-font-lg mb-3 mt-3"></i>
+                                <strong>Web Design</strong>
+                                <small class="mb-3 services__small position-relative">UI & UX Architecture</small>
+                                <p class="text-center o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</p>
+                            </div>
+                            <div class="services__div text-light m-2 d-flex flex-column align-items-center justify-content-center p-2 overflow-hidden">
+                                <i class="fas fa-code o-font-lg mb-3 mt-3"></i>
+                                <strong>Web Development</strong>
+                                <small class="mb-3 services__small position-relative">Code & Run</small>
+                                <p class="text-center o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</p>
+                            </div>
+                            <div class="services__div text-light m-2 d-flex flex-column align-items-center justify-content-center p-2 overflow-hidden">
+                                <i class="fas fa-chart-line o-font-lg mb-3 mt-3"></i>
+                                <strong>Seo & Analyze</strong>
+                                <small class="mb-3 services__small position-relative">DIGITAL MARKETING</small>
+                                <p class="text-center o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</p>
+                            </div>
+                            <div class="services__div text-light m-2 d-flex flex-column align-items-center justify-content-center p-2 overflow-hidden">
+                                <i class="fas fa-mobile-alt o-font-lg mb-3 mt-3"></i>
+                                <strong>Mobile Application</strong>
+                                <small class="mb-3 services__small position-relative">Code & Run</small>
+                                <p class="text-center o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end services -->
+
+                    <!-- start testimonial -->
+                    <h5 class="o-title-page position-relative mb-5">Reviews</h5>
+                    <div class="testimonial">
+                        <div class="testimonial__div mx-2 px-3 pb-3 o-border-purple d-flex flex-column position-relative">
+                            <i class="fas fa-quote-left text-white o-font-lg p-3 o-bg-purple position-absolute rounded-circle"></i>
+                            <strong>David Joe</strong>
+                            <small class="text-muted mb-3">Client</small>
+                            <p class="text-justify o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.</p>
+                        </div>
+                        <div class="testimonial__div mx-2 px-3 pb-3 o-border-purple d-flex flex-column position-relative">
+                            <i class="fas fa-quote-left text-white o-font-lg p-3 o-bg-purple position-absolute rounded-circle"></i>
+                            <strong>Jenifer Doe</strong>
+                            <small class="text-muted mb-3">Graphist & Designer</small>
+                            <p class="text-justify o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.</p>
+                        </div>
+                        <div class="testimonial__div mx-2 px-3 pb-3 o-border-purple d-flex flex-column position-relative">
+                            <i class="fas fa-quote-left text-white o-font-lg p-3 o-bg-purple position-absolute rounded-circle"></i>
+                            <strong>Mohammad Oftadeh</strong>
+                            <small class="text-muted mb-3">Software Engineer</small>
+                            <p class="text-justify o-font-sm">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et.</p>
+                        </div>
+                    </div>
+                    <!-- end testimonial -->
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- end main section -->
+    
+
+    <!-- Script source -->
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./node_modules/jquery.nicescroll/dist/jquery.nicescroll.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/pages/about.js"></script>
+    <!-- Script source -->
+</body>
+</html>

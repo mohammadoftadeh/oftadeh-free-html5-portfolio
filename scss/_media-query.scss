@@ -1,0 +1,27 @@
+@import './../node_modules/bootstrap/scss/functions';
+@import './../node_modules/bootstrap/scss/variables';
+@import './../node_modules/bootstrap/scss/mixins/breakpoints';
+
+@media (min-width: 400px){
+    .o-masonry{
+        column-count: 2;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    main{
+        min-height: 100vh;
+    }
+}
+@include media-breakpoint-up(md) {
+    .right-side{
+        height: 603px;
+        overflow: scroll;
+    }
+}
+@include media-breakpoint-up(lg) {
+    main > .container{
+        margin-top: 50px;
+    }
+}
+@include media-breakpoint-up(xl) {}

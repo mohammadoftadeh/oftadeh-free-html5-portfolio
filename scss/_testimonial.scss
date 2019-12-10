@@ -1,0 +1,19 @@
+.testimonial{
+
+    .slick-list{
+        padding: 1.85rem 0;
+    }
+
+    .slick-dots li.slick-active button:before{
+        color: $o-primary;
+    }
+}
+
+.testimonial__div{
+    padding-top: 2rem;
+
+    .fa-quote-left{
+        top: -28px;
+        right: 23px;
+    }
+}

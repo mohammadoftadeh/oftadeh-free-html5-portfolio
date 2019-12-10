@@ -1,0 +1,50 @@
+{
+  "name": "oftadeh",
+  "version": "1.0.0",
+  "description": "Oftadeh - Portfolio Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "oftadeh",
+    "Portfolio"
+  ],
+  "author": "Mohammad Oftadeh",
+  "copyright": "Copyright 2019-2025 oftadehLabs Mohammad Oftadeh",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohammadoftadeh/oftadeh-free-html5-portfolio.git"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.2",
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "jquery.nicescroll": "^3.7.6",
+    "node-sass": "^4.13.0",
+    "popper.js": "^1.16.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "fslightbox": "^3.0.8",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "terser-webpack-plugin": "^2.0.1",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8"
+  }
+}

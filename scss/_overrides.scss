@@ -1,0 +1,44 @@
+a{
+    text-decoration: none !important;
+}
+
+button{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.progress{
+    height: 5px;
+    border-radius: 0;
+}
+
+.form-control:focus{
+    border-color: $o-primary;
+    box-shadow: 0 0 0 0.2rem rgba(142, 111, 246, .3);
+}
+
+.form-group{
+    textarea{
+        min-height: 113px;
+        max-height: 113px;
+        resize: none;
+    }
+}
+
+.post-comments{
+    .media{
+        .media-avatar{
+            background: #f3f6f9;
+            width: 55px;
+            height: 55px;
+            
+            img{
+                width: 100%;
+                min-height: 100%;
+                object-fit: cover;
+                object-position: center;
+            }
+        }
+    }
+}
