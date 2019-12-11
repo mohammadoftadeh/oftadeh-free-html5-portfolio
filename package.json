@@ -28,6 +28,7 @@
     "jquery.nicescroll": "^3.7.6",
     "node-sass": "^4.13.0",
     "popper.js": "^1.16.0",
+    "serialize-javascript": "^2.1.2",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
